@@ -1,14 +1,46 @@
+/* * rule means for the entire style sheet */
+/* box sizing: border-box always used for creating for responsiveness*/
+* {
+    box-sizing: border-box;
+}
+
 body    {
     font-family: 'Poppins', sans-serif;;
 }
 
 header {
-    background-color: green;
+    background-color: pink;
 }
 /* using . before description makes it a class */
 .container {
     width: 90%;
     margin: 0 auto;
 }
+/* 1 rem is 16px. '1rem 0' means 1rem top and bottom and 0 is the sides */
+.header-container {
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 1.5rem; 
+    margin: 1rem;
+}
 
 /* using # before description makes it an ID. ID ALWAYS HAVE TO BE UNIQUE TO ONE ATTRIBUTE */
+
+/* using display inline, puts navigation in horiztal to one another*/
+li {
+    list-style: none;
+    display: inline;
+    margin: 0 0.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
