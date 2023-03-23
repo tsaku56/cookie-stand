@@ -2,3 +2,13 @@ body    {
     font-family: 'Poppins', sans-serif;;
 }
 
+header {
+    background-color: green;
+}
+/* using . before description makes it a class */
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* using # before description makes it an ID. ID ALWAYS HAVE TO BE UNIQUE TO ONE ATTRIBUTE */
