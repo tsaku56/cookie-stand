@@ -29,6 +29,7 @@ header {
     margin: 0 auto;
 }
 /* 1 rem is 16px. '1rem 0' means 1rem top and bottom and 0 is the sides */
+/* display flex and direction flex to allow nav seperate to h1 in header */
 .header-container {
     padding: 1.5rem 0;
     text-align: center;
@@ -64,13 +65,13 @@ a {
 .main-container {
     padding-top: 1rem;
 }
-
+/* seperate class for hero image and text as we want to seperate the first one */
 .hero-img {
     max-height: 300px;
     object-fit: cover;
     margin-bottom: 2rem;
 }
-
+/* max width on text to keep it centered */
 .hero-text {
     max-width: 60ch;
     margin: 0 auto;
@@ -79,12 +80,12 @@ a {
 .img-container {
     margin-bottom: 1rem;
 }
-
+/* display for this class, tells the direction in what we want the section to look like, ie, column direction */
 .cookie-section {
     display: flex;
     flex-direction: column;
 }
-
+/* object fit cover, allow to keep size of image without distort to the required space */
 .cookie-img {
     max-height: 200px;
     object-fit: cover;
