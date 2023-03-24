@@ -24,3 +24,18 @@ const cup = {
     madeOfChina: true,
     weightInGrams: 100,
 }
+
+// console.log is logging and working out the variable, arithmetic operator
+// increment number++ or deincrement number--
+let x = 5 + 5;
+console.log (x);
+
+// ensure each word is capital ie. myPetName, this is called camel case.
+
+// can't add a number to a string. number and string will always be a string
+let myHouseNum = "5" + 5;
+console.log(myHouseNum);
+
+// concantenation is adding strings together 
+let myHouse = myName + " is learning";
+console.log(myHouse);
