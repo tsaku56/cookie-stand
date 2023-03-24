@@ -2,7 +2,7 @@ let user = prompt("Hi my name is Ross, what is your name?");
 
 console.log("Hi " + user);
 
-let time = prompt("Hi " + user + ", what hour is it? (0 - 23 )");
+let time = prompt("Hi " + user + ", what hour is it? (0 - 23)");
 
 console.log(time)
 
