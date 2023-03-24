@@ -31,3 +31,9 @@ if(cheeseFan === true){
 }   else {
     console.log("Boo");
 }
+
+onclick='changeImage(this);'
+
+function changeImage(img) {
+    document.getElementById("img").src = img.src.replace(src="images/cookie.jpg");
+}
