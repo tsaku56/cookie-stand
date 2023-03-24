@@ -32,8 +32,17 @@ if(cheeseFan === true){
     console.log("Boo");
 }
 
-onclick='changeImage(this);'
-
-function changeImage(img) {
-    document.getElementById("img").src = img.src.replace(src="images/cookie.jpg");
-}
+var result = document.getElementById("myImg");
+    var upper = document.getElementById("myImg");
+    function changeImage() {
+    var image = document.getElementById("myImg");
+        if (image.src == "images/cookie-hero.jpg") {
+            image.src = "images/cookies.jpg";
+            result.innerHTML += " The image is changed from <b> Light mode to Dark mode </b>. <br> ";
+        }
+        else {
+            image.src = "images/cookies.jpg";
+            result.innerHTML += " The image is changed from <b> Dark mode to Light mode </b>. ";
+        }
+    upper.innerHTML = " The previous image is replaced by the new image as you click the button. <br> ";
+    }

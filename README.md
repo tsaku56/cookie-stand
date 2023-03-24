@@ -19,3 +19,8 @@ Has to entered in HTML, to incorporate the javescript
 < script src="scripts.js"></ script >
 
 < script >document.write(message)</ script >
+
+< button type="button"
+onclick="document.getElementById('demos').innerHTML = Date()">
+Click me to display Date and Time.</ button >
+    < p id="demos"></ p >
