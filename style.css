@@ -56,6 +56,10 @@ li:hover {
     color: rgb(238, 6, 219);
 }
 
+#demo {
+    text-align: center;
+}
+
 a {
     text-decoration: none;
 /* anchor element by default do not inherit from the parent, however if we add this ca  */
