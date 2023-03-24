@@ -20,4 +20,5 @@ if(time < 12){
 console.log(message);
 
 // document to find elementid #demo and then demo.innerhtml will show message in h2 which has id of 'demo'
+// dots . between each phrase is known as dot notation
 const demo = document.getElementById("demo").innerHTML = message;
