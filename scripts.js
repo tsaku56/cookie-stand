@@ -27,8 +27,8 @@ const cup = {
 
 // console.log is logging and working out the variable, arithmetic operator
 // increment number++ or deincrement number--
-let x = 5 + 5;
-console.log (x);
+// let x = 5 + 5;
+// onsole.log (x);
 
 // ensure each word is capital ie. myPetName, this is called camel case.
 
@@ -47,10 +47,16 @@ let myAge = 32
 console.log(myAge);
 
 // ${myName} It is an EL expression basically it outputs the value that result from evaluating the expression
-let myNames = "Ross"
+const myNames = "Ross"
 let myAges = 32
-console.log(`My name is : ${myNames} and i have ${myAges} years old`);
+console.log(`My name is : ${myNames} and I am ${myAges} years old`);
 
-// concantenation is strings added together to make this sentance for this example
+// concantenation is strings added together to make this sentance for this example. we do this by using +
 const myProfile = "Hello my name is " + myName + " and I am " + myAge + " years old"
 console.log(myProfile);
+
+//  telling console to log, the type of, asking what data type is this
+let x = 5
+const y = "5"
+let myNumber = x + y
+console.log(typeof myNumber)
