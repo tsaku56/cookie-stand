@@ -9,11 +9,11 @@ console.log(time)
 let message;
 // 'if' condidtions are set using the boundary of time '0-23' '<' less than... '<=' less than or equals too the number.
 if(time < 12){
-    message = "Good Morning " + user;
+    message = "Good Morning " + user + " don't touch my cookies.";
 } else if(time <= 18){
-    message = "You're up late " + user;
+    message = "You're up late " + user + " don't touch my cookies.";
 } else if(time <= 24){
-    message = "Go to bed I suppose " + user;
+    message = "Go to bed I suppose " + user + " don't touch my cookies.";
 } else {
     message = "Nice try " + user;
 }
@@ -32,17 +32,17 @@ if(cheeseFan === true){
     console.log("Boo");
 }
 
-var result = document.getElementById("myImg");
-    var upper = document.getElementById("myImg");
+let result = document.getElementById("myImg");
+    let upper = document.getElementById("myImg");
     function changeImage() {
-    var image = document.getElementById("myImg");
+    let image = document.getElementById("myImg");
         if (image.src == "images/cookie-hero.jpg") {
             image.src = "images/cookies.jpg";
-            result.innerHTML += " The image is changed from <b> Light mode to Dark mode </b>. <br> ";
+            result.innerHTML += "Cookies";
         }
         else {
             image.src = "images/cookies.jpg";
-            result.innerHTML += " The image is changed from <b> Dark mode to Light mode </b>. ";
+            result.innerHTML += "Cookies";
         }
-    upper.innerHTML = " The previous image is replaced by the new image as you click the button. <br> ";
+    upper.innerHTML = "Wheres the cookies";
     }
