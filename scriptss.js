@@ -22,3 +22,12 @@ console.log(message);
 // document to find elementid #demo and then demo.innerhtml will show message in h2 which has id of 'demo'
 // dots . between each phrase is known as dot notation
 const demo = document.getElementById("demo").innerHTML = message;
+
+// confrim
+let cheeseFan = confirm("Do you like cheese " + user + " ?");
+
+if(cheeseFan === true){
+    console.log("Yum");
+}   else {
+    console.log("Boo");
+}
