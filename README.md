@@ -13,3 +13,7 @@ Here is CSS code to change settings depending of size of screen
     align-items: center;
   }
 }
+
+Has to entered in HTML, to incorporate the javescript
+
+< script src="scripts.js"></ script >

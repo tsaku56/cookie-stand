@@ -6,10 +6,10 @@ const  heading = document.getElementById("heading");
 console.log(heading);
 
 // variable assigned value in quote is string
-const  myName = "Ross";
+const  myNam = "Ross";
 
 // variable assigned value in number, no quotes
-let myAge = 40;
+let myAgess = 40;
 
 // variable assigned value is a boolean, true or false and in no quotes
 let isAlive = true;
@@ -32,10 +32,25 @@ console.log (x);
 
 // ensure each word is capital ie. myPetName, this is called camel case.
 
-// can't add a number to a string. number and string will always be a string
+// can't add a number to a string. number and string will always be a string. Should be 10 but its actually 55.
 let myHouseNum = "5" + 5;
 console.log(myHouseNum);
 
 // concantenation is adding strings together 
-let myHouse = myName + " is learning";
+let myHouse = myNam + " is learning";
 console.log(myHouse);
+
+let myName = "Ross"
+console.log(myName);
+
+let myAge = 32
+console.log(myAge);
+
+// ${myName} It is an EL expression basically it outputs the value that result from evaluating the expression
+let myNames = "Ross"
+let myAges = 32
+console.log(`My name is : ${myNames} and i have ${myAges} years old`);
+
+// concantenation is strings added together to make this sentance for this example
+const myProfile = "Hello my name is " + myName + " and I am " + myAge + " years old"
+console.log(myProfile);
